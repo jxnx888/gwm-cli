@@ -1,0 +1,35 @@
+{
+  "name": "gwm-cli",
+  "version": "1.0.5",
+  "description": "GWM inner project cli",
+  "bin": {
+    "gwm-cli": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jxnx888/gwm-cli.git"
+  },
+  "keywords": [
+    "GWM",
+    "CLI"
+  ],
+  "author": "Xin Ning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxnx888/gwm-cli/issues"
+  },
+  "homepage": "https://github.com/jxnx888/gwm-cli#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "commander": "^8.1.0",
+    "all": "^0.0.0",
+    "chalk": "^4.1.1",
+    "ejs": "^3.1.5",
+    "inquirer": "^8.1.2",
+    "ora": "^5.4.1"
+  }
+}
